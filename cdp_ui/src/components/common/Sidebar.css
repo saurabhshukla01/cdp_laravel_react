@@ -1,0 +1,19 @@
+/* Sidebar.css */
+
+.nav-treeview {
+    display: none;
+    padding-left: 15px;
+  }
+  
+  .nav-treeview .nav-item {
+    margin-bottom: 5px;
+  }
+  
+  .nav-treeview .nav-link {
+    padding: 10px;
+  }
+  
+  .nav-item.has-treeview:hover > .nav-treeview {
+    display: block;
+  }
+  
